@@ -1,0 +1,18 @@
+Aktivitätsdiagramm für Projektoptimierung
+
+Ein Aktivitätsdiagramm zeigt die Sequenz von Aktivitäten innerhalb eines Prozesses und kann helfen, Engpässe zu identifizieren, Zeitpläne zu optimieren und die Effizienz zu steigern.
+
+
+
++-------------------------+
+|    Projekt Optimierung   |
++-------------------------+
+| - Projekt initialisieren |
+| - Anforderungen sammeln  |
+| - Analyse durchführen     |
+| - Lösung entwerfen        |
+| - Implementierung planen |
+| - Entwicklung durchführen |
+| - Tests durchführen       |
+| - Implementierung überwachen|
++---------------------------+
