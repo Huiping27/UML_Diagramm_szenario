@@ -1,0 +1,19 @@
+UML-Klassendiagramm für ein Online-Shopsystem
+Ein Klassendiagramm visualisiert die Struktur eines Systems durch die Darstellung von Klassen, Attributen, Operationen und ihren Beziehungen zueinander. Hier ist das Beispiel für das Online-Shopsystem:
+
++---------------------+        +---------------------+
+|       Customer      |        |        Order        |
++---------------------+        +---------------------+
+| - customerId: int   |        | - orderId: int      |
+| - name: string      |        | - orderDate: Date   |
+| - email: string     |        | - totalAmount: float|
++---------------------+        +---------------------+
+       |                           |
+       |                           |
++-------------------+    +-------------------+
+|     Shopping      |    |      Payment      |
+|    Cart           |    |      Method       |
++-------------------+    +-------------------+
+| - cartId: int     |    | - paymentId: int   |
+| - items: List<Item>|    | - paymentType: string |
++-------------------+    +-------------------+
